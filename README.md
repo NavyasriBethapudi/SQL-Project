@@ -7,4 +7,8 @@ Data Cleaning, Exploring, Analyzing and Reporting through SQL Queries
    
    This Project shows data of how many people has been infected, Died and got Vaccinated as of Current Month i.e., March 2023. 
    
+   I have formatted the some of the data via Excels and splitted into two excels. 
+   1. COVIDDEATHS.xlsx -> Contains Covid Cases & Covid Deaths Data.
+   2. COVIDVACCINATIONS.xlsx -> Contains Covid Vaccinations Data.
+   
    Dataset ref link -> https://ourworldindata.org/covid-deaths 
