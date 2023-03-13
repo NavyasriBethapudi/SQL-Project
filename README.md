@@ -1,4 +1,4 @@
-# SQL-Project
+# SQL-Projects
 Data Cleaning, Exploring, Analyzing and Reporting through SQL Queries
 
 1. COVID-19 DATA EXPLORING PROJECT -
