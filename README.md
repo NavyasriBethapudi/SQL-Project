@@ -26,7 +26,7 @@ Data Cleaning, Exploring, Analyzing and Reporting through SQL Queries
     
     STEP 3 -> Fix the Date Format before uploading the excel to Sql server. I have tried without Fixing the Date format but that errored out as Order Date has 2 different date types(character and date formats mixed). So, I have fixed that error first before uploading to server.
     
-    STEP 4 -> Upload the Excel to SQL Server and Clean the Data.
+    STEP 4 -> Upload the Excel to SQL Server and Clean the Data. Excel File - Sales_Q4_2019 Dataset - UPDATED.xlsx
             
             These are the some of the steps i have taken - 
             1. Format the Data Type of the Column Headers or Variables.
