@@ -292,7 +292,7 @@ GROUP BY Product
 ORDER BY 2 
 
 ----Query for comparing both Products Sold in Oct 2019 to Nov 2019
-SELECT A.Product       AS Product_NOV
+SELECT A.Product       AS Product
      , SUM(A.QuantityOrdered)   AS Total_Products_Sold_NOV
 	 --, B.Product       AS Product_OCT
 	 , B.Total_Products_Sold    AS Total_Products_Sold_OCT
@@ -338,7 +338,7 @@ GROUP BY Product
 ORDER BY 2 
 
 ----Query for comparing both Products Sold in Dec 2019 to Nov 2019
-SELECT A.Product       AS Product_DEC
+SELECT A.Product       AS Product
      , SUM(A.QuantityOrdered)   AS Total_Products_Sold_DEC
 	 --, B.Product       AS Product_NOV
 	 , B.Total_Products_Sold    AS Total_Products_Sold_NOV
@@ -396,7 +396,7 @@ ORDER BY 2
 --TX	TEXAS
 --WA	WASHINGTON
 
-----Let's see how many sates were there using distinct statement
+----Let's see how many states were there using distinct statement
 SELECT DISTINCT StateCD
               ,     CASE WHEN StateCD = 'TX' THEN 'Texas'
                      WHEN StateCD = 'ME' THEN 'Maine'
@@ -479,7 +479,7 @@ GROUP BY A.States
 ORDER BY 1
 
 ----Query to get Percentage of Sales per month by product category
-----Let's see how many sates were there using distinct statement
+----Let's see how many Category were there using distinct statement
 SELECT DISTINCT Category 
      , SUM(Price)         AS TotalSales
 FROM SalesAnalyticsProject..SalesData
