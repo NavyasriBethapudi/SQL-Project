@@ -20,9 +20,11 @@ Data Cleaning, Exploring, Analyzing and Reporting through SQL Queries
     
     Dataset Ref Link -> https://www.kaggle.com/datasets/knightbearr/sales-product-data 
     
-    STEP 1 -> This Dataset provides the information related to Purchasing a Product via online or offline Like Order ID, Quantity of Orders Placed, Shipping Address, Product Details and Order Date. So, Download the Dataset.
+    This Dataset provides the information related to Purchasing a Product via online or offline Like Order ID, Quantity of Orders Placed, Shipping Address, Product Details and Order Date.
     
-    STEP 2 -> In this Dataset we have multiple excels. So, I have merged 3 excels of Last Quarter of FY 2019 i.e, October, November, December. 
+    STEP 1 -> Download the Dataset.
+    
+    STEP 2 -> In this Dataset we have complete data of FY 2019. So, I have only taken 3 excels of Last Quarter of FY 2019 i.e, October, November, December and merged into one file. 
     
     STEP 3 -> Fix the Date Format before uploading the excel to Sql server. I have tried without Fixing the Date format but that errored out as Order Date has 2 different date types(character and date formats mixed). So, I have fixed that error first before uploading to server.
     
