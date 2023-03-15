@@ -240,10 +240,13 @@ SELECT *
 FROM SalesAnalyticsProject..SalesData
 WHERE YEAR(OrderDate) = 2020
 
----- let's see how many orders placed on this OrderID - 319313
---SELECT SUM(QuantityOrdered)  AS OrdersPlaced
---FROM SalesAnalyticsProject..SalesData
+---- let's see how many unique orders placed and Get their Total Price based on Product
+SELECT OrderID
+     , SUM(QuantityOrdered)  AS OrdersPlaced
+     , SUM(Price)      AS TotalPrice
+FROM SalesAnalyticsProject..SalesData
 --WHERE OrderID = 319313
+GROUP BY ROLLUP(OrderID)
 
 --DATA ANALYSIS USING SQL TO REPORT IN DASHBOARD.
 -- 1. Which product category is the most profitable and which one is the least profitable?
