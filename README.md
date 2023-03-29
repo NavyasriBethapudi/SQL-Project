@@ -3,7 +3,7 @@ Data Cleaning, Exploring, Analyzing and Reporting through SQL Queries
 
 1. COVID-19 DATA EXPLORING PROJECT -
 
-   I have taken this project inspired by AlexTheAnalyst a Youtuber he has done a project on this COVID dataset on exploring the data. Most of the queries written will be similar. 
+   I have taken this project inspired by AlexTheAnalyst a Youtuber he has done a project on this COVID dataset on exploring the data. 
    
    This Project contains data of how many people have been in contact with COVID and some of the fields contain Infected Cases, Deaths and got Vaccinated from March 2020 to as of Current Month i.e., March 2023. 
    
